@@ -32,7 +32,7 @@ with open(os.path.join(REQUIREMENT_DIR, "test_requirements.txt")) as f:
     tests_requires = [line.strip() for line in f if line.strip()]
 
 setuptools.setup(
-    name=MODULE_NAME,
+    name=MODULE_NAME+'_omar_fork',
     version=pkg_info["__version__"],
     url=REPOSITORY_URL,
     author=pkg_info["__author__"],
